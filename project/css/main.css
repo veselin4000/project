@@ -1,0 +1,86 @@
+header {
+    color: white;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c0b0b;
+    text-shadow: 2px 2px #0c0101;
+    padding: 15px;
+}
+header:hover{
+    text-decoration: underline;
+    background-color: #740f0f;
+}
+
+body {
+    background-color:#ADADAD;
+    font-size: 15px;
+}
+
+#search-panel{
+    height: 380px;
+    justify-content: center;
+    background-color:#797979;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 5px 7px 10px;
+    column-gap: 20px;
+} 
+
+#output-panel{  
+    background-color:#797979;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 7px 10px;
+    border-left: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    padding: 0 4px;
+    column-gap: 20px;
+    max-width: 750px;
+} 
+
+.option_button {
+    float: left;
+    background-color: rgb(89, 102, 114);
+}
+.option_button:hover:enabled{
+    background-color: rgb(182, 56, 56);
+}
+
+#cloneMe{
+    max-width: 740px; 
+    background-color: white;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.panel-title{
+    text-decoration: underline;
+}
+
+.panel-title:hover{
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
